@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+exec java -cp kafka-test-1.0-SNAPSHOT.jar io.github.ning2008wisc.kafka.test.Demo ${TOPICS} ${SOURCE_BROKER_LIST} ${TARGET_BROKER_LIST} ${NUM_RECORD} ${NUM_THREAD} ${SLEEP_TIME_MS} ${TOPIC_PREFIX}
